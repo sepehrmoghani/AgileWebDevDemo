@@ -1,11 +1,114 @@
+body {
+  font-family: 'IBM Plex Mono', monospace; /* specify fallback font */
+  font-size: 20px;
+  background-color: #000000;
+  color: #fafafa;
+  text-align: center;
+}
+
+
+body h1{
+  font-size: 150px;
+  text-align: left;
+}
+
 #signUpForm {
-  background-color: rgb(0, 238, 255);
+  text-align: center;
+}
+
+#signUpForm select {
+  background-color: #000000;
+  color: #fafafa;
+  font-size: 20px;
+  height: 40px;
+  border: 1px solid #fafafa;
+  padding: 1px;
+}
+
+#signUpForm select option {
+  background-color: #000000;
+  color: #fafafa;
+}
+
+#signUpForm input {
+  color: #fafafa;
+  background-color: #000000;
+  border: 1px solid #fafafa;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+#signUpForm button {
+  border: 1px solid #fafafa;
+  text-align: center;
+  background: #000000;
+  padding: 10px 15px;
+  color: #fafafa;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 10px;
+  transition: .5s ease all
+}
+
+#signUpForm button:hover {
+  box-shadow: 0 10px 20px 000(0, 0, 0, 0.19), 0 6px 6px fffcf7(0, 0, 0, 0.23);
+  background-color: #fafafa;
+  color: #000000;
 }
 
 #existingGroups {
-  background-color: pink;
+  text-align: center;
 }
 
-.studentName:hover {
-  font-weight: 800;
+#existingGroups table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  color: #fafafa;
+  border: 1px solid #fafafa; /* Set border color */
+}
+
+#existingGroups th,
+#existingGroups td {
+  text-align: left;
+  border: 1px solid #fafafa;
+  padding: 8px;
+}
+
+#existingGroups td:not(:first-child) {
+  cursor: pointer;
+}
+
+#existingGroups td:not(:first-child):hover {
+  background-color: #fafafa;
+  color: #000000;
+}
+
+.highlighted {
+  background-color: #fafafa;
+  color: #000000;
+}
+
+
+#existingGroups span {
+  cursor: pointer;
+  margin: 0 auto;
+  text-align: center
+}
+
+#existingGroups button {
+  border: 1px solid #fafafa;
+  text-align: center;
+  background: #000000;
+  padding: 10px 15px;
+  color: #fafafa;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 10px;
+  transition: .5s ease all
+}
+
+#existingGroups button:hover {
+  box-shadow: 0 10px 20px 000(0, 0, 0, 0.19), 0 6px 6px fffcf7(0, 0, 0, 0.23);
+  background-color: #fafafa;
+  color: #000000;
 }
